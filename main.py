@@ -29,9 +29,3 @@ try:
     print("Email успешно отправлен!")
 except Exception as e:
     print(f"Произошла ошибка при отправке письма: {e}")
-
-
-
-import smtplib
-from email.message import EmailMessage
-
